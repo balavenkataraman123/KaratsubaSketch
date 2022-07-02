@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Karatsuba Sketch</title>
+    <title>a drawing app</title>
 </head>
 <style>
 
@@ -112,7 +112,7 @@ function save() {
         const data = new FormData()
         console.log(dataURL)
         data.append('image', dataURL)
-        xhr.open('POST', '/')
+        xhr.open('POST', '/draw')
         xhr.send(data)
 
 
