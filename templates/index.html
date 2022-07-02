@@ -112,7 +112,7 @@ function save() {
         const data = new FormData()
         console.log(dataURL)
         data.append('image', dataURL)
-        xhr.open('POST', '/')
+        xhr.open('POST', '/draw')
         xhr.send(data)
 
 
